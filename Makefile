@@ -1,6 +1,6 @@
 .PHONY: build push
 
-TAG=0.1
+TAG=0.2
 
 build:
 	docker build -t kuenishi/grpc-go:$(TAG) .
